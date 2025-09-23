@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class inputMessage {
     public static void main ( String args[]){
-        Scanner sc = new Scanner(System.in);   // Create a Scanner object named 'sc' to read input from the keyboard (System.in).
+        try(Scanner sc = new Scanner(System.in)){   // Create a Scanner object named 'sc' to read input from the keyboard (System.in).
         // String input = sc.next();  // Use the Scanner to read the next word entered by the user and store it in a variable called 'input'.
         //                             //sc.next() reads only one word (until a space).
         // System.out.println(input);
@@ -31,4 +31,5 @@ public class inputMessage {
 
 
     }
+}
 }
