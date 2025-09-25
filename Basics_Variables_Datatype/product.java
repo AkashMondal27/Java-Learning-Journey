@@ -7,7 +7,7 @@ public class product {
        int a=sc.nextInt();
        System.out.print("Enter second  number: ");
        int b=sc.nextInt();
-       int c = a+b;
+       int c = a*b;
        System.out.print("The product of the number is : ");
        System.out.println(c); 
    }
