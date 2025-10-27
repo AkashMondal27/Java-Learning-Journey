@@ -1,0 +1,88 @@
+
+🧩 1. What is a String in Java?
+
+    A String in Java is a class (from the java.lang package) that represents a sequence of characters.
+
+Example:
+
+    String name = "Akash";
+    Here:
+
+    "Akash" is a string literal.
+    name is a String object.
+    Internally, Java stores strings as an array of characters (char[]).
+
+---------------------------------------------------------------------------------------------------------------
+⚙️ 2. String  in java are Immutable
+
+        Strings in Java are immutable, meaning once created, they cannot be changed.
+        If you modify a string, Java actually creates a new String object.
+
+Example:
+
+        String s = "Hello";
+        s = s + " World"; // creates a new String "Hello World"
+        👉 The original "Hello" string remains unchanged.
+
+-----------------------------------------------------------------------------------------------------------------
+💡 3. Ways to Create Strings
+        There are two main ways to create strings:
+
+        ✅ Using String Literals:
+            String s1 = "Java";
+            Stored in the String Constant Pool (SCP) for memory efficiency.
+
+        ✅ Using new Keyword:
+            String s2 = new String("Java");
+            Stored in the Heap memory (a new object is always created).
+
+--------------------------------------------------------------------------------------------------------------------            
+
+🧰 4. Common String Methods
+
+    Method	Description	Example
+
+    length()                Returns length of string	                 "Hello".length() → 5
+
+    charAt(i)	            Returns character at index i	              "Hello".charAt(1) → 'e'
+
+    substring(a, b) 	    Returns substring from index a to b-1	      "Hello".substring(1,4) → "ell"
+
+    equals(str)     	    Compares two strings	"abc".equals("abc")      true
+
+    equalsIgnoreCase(str)	Case-insensitive comparison	"Java".equalsIgnoreCase("java")   →  true
+
+    toUpperCase()	        Converts to uppercase	"java".toUpperCase()         → "JAVA"
+
+    toLowerCase()	        Converts to lowercase	"JAVA".toLowerCase()        → "java"
+
+    contains(sub)	        Checks if substring exists	"Hello".contains("ell")  → true
+
+    indexOf(ch)	            Finds position of a char	"Hello".indexOf('l')     → 2
+
+    replace(old, new)	    Replace characters	"abc".replace('a','z')      → "zbc"
+
+---------------------------------------------------------------------------------------------------------------    
+
+
+🧮 5. Strings in DSA Context
+
+In Data Structures and Algorithms, strings are often used for:
+
+Manipulating and comparing data (like names, IDs)
+
+Pattern matching problems (e.g. KMP algorithm)
+
+Palindrome checking
+
+Anagram problems
+
+String reversal
+
+Substring search
+
+Compression / Encoding problems
+
+Hashing and rolling hash (e.g. Rabin–Karp)
+
+Dynamic programming problems (like longest common subsequence)
