@@ -10,7 +10,7 @@ public class example1 {
 
 class Student {
     String name;
-    int roll ;
+   
 
     Student(String name ){
       this.name=name;
