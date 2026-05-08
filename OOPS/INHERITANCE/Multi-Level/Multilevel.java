@@ -17,7 +17,7 @@ class  Son  extends Father{
 }
 public class Multilevel {
     public static void main(String[] args) {
-        Son obj= new Son();
+        Son obj= new Son();   // Triggers all constructors in order
         System.out.println(obj);
     }
 }
