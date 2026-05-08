@@ -25,4 +25,10 @@ class Car extends Vehicle {
 1. Single Inheritance
 In single inheritance, a sub-class is derived from only one super class.
  It inherits the properties and behavior of a single-parent class.
-  Sometimes, it is also known as simple inheritance. */
+  Sometimes, it is also known as simple inheritance. 
+
+         Vehicle (Parent class)
+          |
+        Car (Child class)
+           
+  */
