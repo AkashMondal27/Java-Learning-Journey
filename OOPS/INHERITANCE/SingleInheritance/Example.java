@@ -1,6 +1,7 @@
 public class Example {
    public static void main(String[] args) {
         // Creating object of subclass invokes base class constructor
+        @SuppressWarnings("unused")
         Car obj = new Car();
     }
 }
