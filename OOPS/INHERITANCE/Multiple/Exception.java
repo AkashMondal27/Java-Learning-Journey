@@ -16,8 +16,7 @@ interface Mother {
 }
 
 
-// Class  Son is implementing both interfaces A and B
-// this is called multiple inheritance using interfaces
+// Class  Son is implementing both interfaces   Father and Monther this is called multiple inheritance using interfaces
 
  class  Son implements Father, Mother {
  /*because both interfaces contain same default method ,Java gets confused
