@@ -2,25 +2,25 @@ public class Example {
 
     public static void main(String[] args) {
 
-        // Creating first object
         Student s1 = new Student();
 
-        // Setting static variable
-        s1.college = "SSU";
+        s1.setName("Akash");
 
-        // Creating second object
+        Student.college = "SSU";
+
         Student s2 = new Student();
+          s2.setName("Akash2");
 
-        // Accessing static variable using second object
-        System.out.println("COLLEGE : " + s2.college);
+        System.out.println("Name : " + s1.getName());
+
+        System.out.println("College : " + Student.college);
     }
 }
 
 class Student {
 
-    String name;   // non-static variable (separate for every object)
+    String name;
 
-    // static variable (shared by all objects)
     static String college;
 
     void setName(String name) {
