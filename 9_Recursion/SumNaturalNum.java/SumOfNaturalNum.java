@@ -12,13 +12,11 @@ public class SumOfNaturalNum {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.print("Enter the number: ");
+            int n = sc.nextInt();
 
-        System.out.print("Enter the number: ");
-        int n = sc.nextInt();
-
-        System.out.println("Sum = " + Sum(n));
-
-        sc.close();
+            System.out.println("Sum = " + Sum(n));
+        }
     }
 }
